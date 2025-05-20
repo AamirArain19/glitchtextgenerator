@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free Glitch Text Generator - Copy and paste glitchy, Zalgo-style text for your bios, captions, and designs." />
+  <title>Free Glitch Text Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Glitchify</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <button id="toggle-theme">🌙</button>
+    </nav>
+  </header>
+  <main>
+    <h1>Free Glitch Text Generator</h1>
+    <textarea id="inputText" placeholder="Type your text here..."></textarea>
+    <div id="outputText" class="glitch">Your Glitch Text Will Appear Here</div>
+    <div class="actions">
+      <button onclick="copyGlitch()">📋 Copy Text</button>
+      <select id="glitchStyle">
+        <option value="zalgo">Zalgo</option>
+        <option value="mirror">Mirror</option>
+        <option value="flip">Flip</option>
+      </select>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Glitchify. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
